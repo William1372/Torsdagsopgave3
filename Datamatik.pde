@@ -11,4 +11,22 @@ void setup(){
   println("Mit navn er: "+student1.name+", og jeg går på hold: "+student1.datamatikerTeam);
   println("Mit navn er: "+student2.name+", og jeg går på hold: "+student2.datamatikerTeam);
   
+  boolean areClassmates = isClassmates(student1, student2);
+  
+  if(areClassmates){
+  
+    println(student1.name+" and "+student2.name+" are classmates.");
+  
+  } else {
+  
+    println(student1.name+" and "+student2.name+" are NOT classmates.");
+  
+  }
+  
 }
+
+ boolean isClassmates(StudentInfo student1, StudentInfo student2){
+  
+    return student1.datamatikerTeam == student2.datamatikerTeam;
+  
+  }
