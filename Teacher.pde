@@ -11,5 +11,11 @@ class TeacherInfo{
   this.isFemale = tmpIsFemale;
   
   }
+  
+  void changeName(String newName){
+  
+    this.name = newName;
+  
+  }
 
 }
