@@ -10,6 +10,7 @@ void setup(){
   println("Min lærers navn er: "+myTeacher.name);
   println("Mit navn er: "+student1.name+", og jeg går på hold: "+student1.datamatikerTeam);
   println("Mit navn er: "+student2.name+", og jeg går på hold: "+student2.datamatikerTeam);
+  // 4. b, 4.c
   myTeacher.changeName("Tess Løvgreen");
   println(myTeacher.name);
   
