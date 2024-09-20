@@ -30,15 +30,13 @@ int age;
 
 void setup(){
 
-  parameters(name, age);  
+  parameters("William Ludwig Øster Danø", 23);  
 
 }
 
 
 void parameters(String name, int age){
 
-  name = "William Ludwig Øster Danø";
-  age = 23;
   println("My name is "+name+", I am "+age+" years old");
 
 }
